@@ -12,29 +12,29 @@
 <body>
     
         <!-- intestazione -->
-       <header>
+       <header class="d-flex align-items-center">
 
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-3 col-md-2 col-lg-1">
+            <div class="row align-items-center">
+                <div class="col-auto">
                     
-                    <img class="d-none d-lg-block" src="img/logo.svg" alt="logo">
+                    <img class="d-none d-lg-block logo" src="img/logo.svg" alt="logo">
 
-                    <img class="d-block d-lg-none" src="img/mobile-logo.png" alt="logo">
+                    <img class="d-block d-lg-none logo" src="img/mobile-logo.png" alt="logo">
                 </div>
 
-                <div class="col-6 col-md-8 col-lg-10">
+                <div class="col">
                     <div class="input-group flex-nowrap">
                         <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                        <input type="text" class="form-control" placeholder="Prova a cercare lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
                       </div>
                 </div>
 
-                <div class="col-3 col-md-2 col-lg-1">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="col-auto">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-question"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <i class="fa-regular fa-bell"></i>
                 </div>
             </div>
         </div>
@@ -48,7 +48,41 @@
 
             <div class="flex_main">
                 
-                <div id="side"></div>
+                <div id="side">
+                
+                    <div>
+                        <ul class="space_padding text-center d-none d-lg-block">
+                            <li>
+                                <i class="fa-solid fa-house"></i> Home
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-chart-simple"></i> Stats
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-signal"></i> Signals
+                            </li>
+                        </ul>
+
+
+                        <ul class="space_padding text-center d-block d-lg-none">
+                            <li><i class="fa-solid fa-house"></i></li>
+                            <li><i class="fa-solid fa-chart-simple"></i></li>
+                            <li><i class="fa-solid fa-signal"></i></li>
+                        </ul>
+
+                    </div>
+
+                    <div  class="space_padding text-center">
+                        <span class="d-none d-lg-block">
+                            <i class="fa-solid fa-gear"></i> Admin
+                        </span>
+
+                        <span class="d-block d-lg-none">
+                            <i class="fa-solid fa-gear"></i> 
+                        </span>
+                    </div>
+                  
+                </div>
 
 
                 <div id="content_overflow">
@@ -68,7 +102,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis exercitationem modi quo autem voluptatibus consequuntur molestiae illo, tempora nulla? Incidunt sunt in omnis culpa perspiciatis magnam, rerum esse ad voluptates!</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis exercitationem modi quo autem voluptatibus consequuntur molestiae illo, tempora nulla? Incidunt sunt in omnis culpa perspiciatis magnam, rerum esse ad voluptates!</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis exercitationem modi quo autem voluptatibus consequuntur molestiae illo, tempora nulla? Incidunt sunt in omnis culpa perspiciatis magnam, rerum esse ad voluptates!</p>
-                        
+
                     </section>
                 </div>
         </div>
