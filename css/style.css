@@ -151,13 +151,13 @@ header {
 
 
 
-
+/* 
 .good {
-    /* background-color: darkmagenta; */
-    /* height: 350px; */
-    width: 60%;
+    background-color: darkmagenta;
+     height: 350px;
+    width: 70%;
 
-}
+} */
 
 
 .goodbye {
@@ -169,28 +169,50 @@ header {
 
 
 .ciaogood {
-    background-color: darkslategray;
-    height: 270px;
+   
+    /* height: 270px; */
     margin-top: 50px;
 }
 
+/* .accordion > h3 {
+    border: 1px solid black;
+} */
 
+.accordion {
+    border: 1px solid gray;
+   
+}
 
-
+.accordion > h3 {
+    background-color: #f7f7f7;
+    margin-bottom: -1px;
+    padding: 3px;
+    /* border-bottom: 1px solid black; */
+}
 
 .adios {
     /* background-color: hotpink; */
     height: 700px;
-    width: 30%;
+    /* width: 35%; */
 }
 
 
 .inglese {
     background-color: darkorange;
     height: 200px;
-
 }
 
+.todo {
+    border: 1px solid black;
+    background-color: white;
+    
+}
+
+.todo > h3 {
+    background-color: #f7f7f7;
+    margin-bottom: -1px;
+    padding: 5px;
+}
 
 .italiano {
     background-color: lawngreen;
