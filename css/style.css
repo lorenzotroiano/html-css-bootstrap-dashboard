@@ -69,6 +69,10 @@ header {
 .breadcrumb > li {
     margin-right: 10px;
     color: white;
+
+    background-color: #165bba;
+    border-radius: 15px;
+    padding: 5px;
    
 }
 
