@@ -131,8 +131,69 @@ header {
     background-color: rgb(159, 250, 131);
     /* height: 100%; */
     border: 1px solid rgb(159, 40, 40);
+
+
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+
+@media screen and (max-width: 780px) {
+    .bot_overflow {
+     
+    
+    
+        display: block;
+   
+    }
 }
 
 
 
 
+
+.good {
+    /* background-color: darkmagenta; */
+    /* height: 350px; */
+    width: 60%;
+
+}
+
+
+.goodbye {
+    background-color: crimson;
+    height: 400px;
+}
+
+
+
+
+.ciaogood {
+    background-color: darkslategray;
+    height: 270px;
+    margin-top: 50px;
+}
+
+
+
+
+
+.adios {
+    /* background-color: hotpink; */
+    height: 700px;
+    width: 30%;
+}
+
+
+.inglese {
+    background-color: darkorange;
+    height: 200px;
+
+}
+
+
+.italiano {
+    background-color: lawngreen;
+    height: 500px;
+    margin-top: 50px;
+}
