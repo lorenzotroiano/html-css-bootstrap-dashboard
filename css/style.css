@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+
+header {
+    background-color: violet;
+    height: 70px;
+
+}
+
+
+.flex_viewport {
+    display: flex;
+    border: 2px solid red;
+    height: calc(100vh - 70px);
+}
+
+
+#side {
+    background-color: aquamarine;
+    border: solid 3px yellow;
+    /* height: calc(100vh - 70px); */
+    width: 100px;
+}
+
+
+#content_overflow {
+    background-color: brown;
+    border: solid 3px goldenrod;
+    width: calc(100% - 100px);
+    overflow: auto;
+}
+
+
+#plane {
+    background-color: greenyellow;
+    height: 100px;
+}
+
+
+#overflow_viewport {
+    background-color: darkcyan;
+    /* height: calc(100% - 100px); */
+    
+    /* overflow: auto; */
+}
