@@ -73,11 +73,21 @@ header {
     background-color: #165bba;
     border-radius: 15px;
     padding: 5px;
+  
+    font-size: 12px;
+
    
 }
 
 .breadcrumb-item > a {
     color: white;
+    text-decoration: none;
+}
+
+.fa-plus {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px;
 }
 
 
