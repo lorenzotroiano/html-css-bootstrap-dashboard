@@ -110,7 +110,7 @@ header {
 
 .flex_main {
     display: flex;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
    
     height: calc(100vh - 10vh);
 }
@@ -128,8 +128,9 @@ header {
 
 
 .bot_overflow {
-    background-color: rgb(159, 250, 131);
+    /* background-color: rgb(159, 250, 131); */
     /* height: 100%; */
+    
     border: 1px solid rgb(159, 40, 40);
 
 
@@ -151,71 +152,26 @@ header {
 
 
 
-/* 
-.good {
-    background-color: darkmagenta;
-     height: 350px;
-    width: 70%;
-
-} */
 
 
-.goodbye {
-    background-color: crimson;
-    height: 400px;
+table {
+    background-color: white;
+}
+
+th > img {
+    max-width: 20px;
+   object-fit: cover;
 }
 
 
-
-
-.ciaogood {
-   
-    /* height: 270px; */
+.faq {
     margin-top: 50px;
 }
 
-/* .accordion > h3 {
-    border: 1px solid black;
-} */
-
-.accordion {
-    border: 1px solid gray;
-   
-}
-
-.accordion > h3 {
-    background-color: #f7f7f7;
-    margin-bottom: -1px;
-    padding: 3px;
-    /* border-bottom: 1px solid black; */
-}
-
-.adios {
-    /* background-color: hotpink; */
-    height: 700px;
-    /* width: 35%; */
-}
 
 
-.inglese {
-    background-color: darkorange;
-    height: 200px;
-}
 
-.todo {
-    border: 1px solid black;
-    background-color: white;
-    
-}
 
-.todo > h3 {
-    background-color: #f7f7f7;
-    margin-bottom: -1px;
-    padding: 5px;
-}
-
-.italiano {
-    background-color: lawngreen;
-    height: 500px;
+.users {
     margin-top: 50px;
 }
