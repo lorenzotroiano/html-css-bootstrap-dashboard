@@ -81,31 +81,20 @@ i {
 
 .up_overflow {
     background-color: #1b72e8;
-    height: 100px;
+    /* height: 100px; */
+    padding: 10px;
 
     color: white;
 }
 
 
-.dropdown-menu {
-    --bs-dropdown-min-width: 40rem;
-    height: 41rem;
-    padding: 20px;
+
+.offcanvas {
+    justify-content: flex-start;
 }
 
-.dropstart .dropdown-toggle::before {
-    display: none;
-}
-
-.btn-secondary {
-
-    --bs-btn-bg: #1b72e8;
-    --bs-btn-border-color: none;
-
-    --bs-btn-hover-bg: none;
-
-    --bs-btn-active-bg: #1b72e8;
-    --bs-btn-active-border-color: none;
+.offcanvas-body {
+    text-align: start;
 }
 
 .breadcrumb > li {
