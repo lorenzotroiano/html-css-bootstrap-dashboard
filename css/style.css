@@ -56,7 +56,7 @@ i {
 
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 991px) {
     #side {
         width: 75px;
     }
@@ -84,6 +84,28 @@ i {
     height: 100px;
 
     color: white;
+}
+
+
+.dropdown-menu {
+    --bs-dropdown-min-width: 40rem;
+    height: 41rem;
+    padding: 20px;
+}
+
+.dropstart .dropdown-toggle::before {
+    display: none;
+}
+
+.btn-secondary {
+
+    --bs-btn-bg: #1b72e8;
+    --bs-btn-border-color: none;
+
+    --bs-btn-hover-bg: none;
+
+    --bs-btn-active-bg: #1b72e8;
+    --bs-btn-active-border-color: none;
 }
 
 .breadcrumb > li {
