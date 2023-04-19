@@ -2,6 +2,8 @@
 
 
 
+
+
 /* stile header */
 header {
     height: 10vh;   
@@ -33,6 +35,13 @@ i {
     justify-content: space-between;
 }
 
+#content_overflow {
+
+  
+    width: calc(100% - 150px);
+    height: 100%;
+    overflow: auto;
+}
 
 
 #side li {
@@ -47,7 +56,15 @@ i {
 
 
 
+@media screen and (max-width: 780px) {
+    #side {
+        width: 75px;
+    }
 
+    #content_overflow {
+        width: calc(100% - 75px);
+    }
+}
 
 
 
@@ -119,13 +136,13 @@ i {
 }
 
 
-#content_overflow {
+/* #content_overflow {
 
   
     width: calc(100% - 150px);
     height: 100%;
     overflow: auto;
-}
+} */
 
 
 
